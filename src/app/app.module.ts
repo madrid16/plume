@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import {InitComponent} from "./init.component";
 import {RouterModule} from "@angular/router";
 import {APPROUTER} from "./commons/router";
+import {PageNotFoundComponent} from "./pageNotFound/404";
 
 @NgModule({
   declarations: [
     AppComponent,
-    InitComponent
+    InitComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
